@@ -18,7 +18,7 @@ body {
   padding: 40px 24px;
   border-radius: 16px;
   text-align: center;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
 }
 
 /*.card {
@@ -65,4 +65,33 @@ box-sizing: border-box;
 
 .card_btn:hover {
   background-color: #1b4332;
+}
+
+/*.card_links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}*/
+
+.card_links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card_link {
+  text-decoration: none;
+  color: #2d6a4f;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+}
+
+.card_link:hover {
+  color: #1b4332;
 }
