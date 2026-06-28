@@ -79,7 +79,7 @@ box-sizing: border-box;
   justify-content: center;
   gap: 16px;
   margin-top: 20px;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
 }
 
