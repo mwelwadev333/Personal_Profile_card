@@ -11,29 +11,35 @@ body {
   justify-content: center;
   font-family: sans-serif;
 }
-/*.card {
+.card {
   background-color: #fff;
   width: 90%;
   max-width: 360px;
   padding: 40px 24px;
   border-radius: 16px;
   text-align: center;
-}*/
-.card {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/*.card {
 background-color: #ffffff;
 width: 90%;
 max-width: 360px;
 padding: 40px 24px;
 border-radius: 16px;
 text-align: center;
-box-sizing: border=-box;
-}
+box-sizing: border-box;
+}*/ 
+
 .card_avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   background-color: #c8d8e8;
   margin: 0 auto 20px auto;
+  background-image: url('my_image.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .card_name {
@@ -54,4 +60,9 @@ box-sizing: border=-box;
   border-radius: 8px;
   font-size: 1rem;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card_btn:hover {
+  background-color: #1b4332;
 }
